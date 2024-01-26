@@ -2,7 +2,7 @@ import random
 
 
 class Pet:
-    def __init__(self, pet_type, name, age=0, lifespan=0, hunger=50, happiness=50):
+    def __init__(self, pet_type, name, age=1, lifespan=15, hunger=50, happiness=50):
         self.pet_type = pet_type
         self.name = name
         self.age = age
